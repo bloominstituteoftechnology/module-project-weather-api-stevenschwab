@@ -99,17 +99,17 @@ describe('Module 4 Project', () => {
     within(today).getByText('Wind: 10m/s')
     // forecast 1
     const forecast = document.querySelector('#forecast')
-    within(forecast.children[0]).getByText('Thursday')
+    within(forecast.children[0]).getByText('Wednesday')
     within(forecast.children[0]).getByText('☀️')
     within(forecast.children[0]).getByText('75°/84°')
     within(forecast.children[0]).getByText('Precipitation: 10%')
     // forecast 2
-    within(forecast.children[1]).getByText('Friday')
+    within(forecast.children[1]).getByText('Thursday')
     within(forecast.children[1]).getByText('⛅️')
     within(forecast.children[1]).getByText('77°/85°')
     within(forecast.children[1]).getByText('Precipitation: 40%')
     // forecast 3
-    within(forecast.children[2]).getByText('Saturday')
+    within(forecast.children[2]).getByText('Friday')
     within(forecast.children[2]).getByText('🌧️')
     within(forecast.children[2]).getByText('72°/80°')
     within(forecast.children[2]).getByText('Precipitation: 80%')
@@ -131,17 +131,17 @@ describe('Module 4 Project', () => {
     within(today).getByText('Wind: 8m/s')
     // forecast 1
     const forecast = document.querySelector('#forecast')
-    within(forecast.children[0]).getByText('Thursday')
+    within(forecast.children[0]).getByText('Wednesday')
     within(forecast.children[0]).getByText('☀️')
     within(forecast.children[0]).getByText('73°/85°')
     within(forecast.children[0]).getByText('Precipitation: 20%')
     // forecast 2
-    within(forecast.children[1]).getByText('Friday')
+    within(forecast.children[1]).getByText('Thursday')
     within(forecast.children[1]).getByText('☀️')
     within(forecast.children[1]).getByText('67°/78°')
     within(forecast.children[1]).getByText('Precipitation: 10%')
     // forecast 3
-    within(forecast.children[2]).getByText('Saturday')
+    within(forecast.children[2]).getByText('Friday')
     within(forecast.children[2]).getByText('⛅️')
     within(forecast.children[2]).getByText('62°/75°')
     within(forecast.children[2]).getByText('Precipitation: 30%')
